@@ -167,14 +167,6 @@ img::-moz-selection {
     color: #63B9F2;
   }
 }
-section.bg-primary {
-  background-image: url("../img/blue-bg.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -336,4 +328,22 @@ header.masthead p {
   width:150px;
   height:150px;
   margin-bottom: 20px;
+}
+
+section.bg-primary {
+  background-image: url("../img/blue-bg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.bg-dark {
+  background-image: url("../img/black-bg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
