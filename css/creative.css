@@ -347,3 +347,11 @@ section.bg-dark {
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media (max-width: 992px) {
+  #logo {
+    background: transparent url(../img/logo-black-small.png) 0 0 no-repeat!important;
+  }
+}
+
+}
