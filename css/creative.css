@@ -146,22 +146,24 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
-  #mainNav.navbar-shrink {
+  #mainNav.navbar-shrink, #mainNav.navbar-sub {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
-  #mainNav.navbar-shrink .navbar-brand {
+  #mainNav.navbar-shrink .navbar-brand, #mainNav.navbar-sub .navbar-brand {
     color: #63B9F2;
   }
-  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover,   #mainNav.navbar-sub .navbar-brand:focus, #mainNav.navbar-sub .navbar-brand:hover {
     color: #63B9F2;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus,   #mainNav.navbar-sub .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-sub .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,   #mainNav.navbar-sub .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-sub .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #63B9F2;
   }
 }
@@ -318,6 +320,13 @@ header.masthead p {
   display: block;
   background: transparent url(../img/logo-white-small.png) 0 0 no-repeat;
 }
-.navbar-shrink #logo {
+.navbar-shrink #logo, .navbar-sub #logo {
   background: transparent url(../img/logo-black-small.png) 0 0 no-repeat;
+}
+
+.avatar {
+  border-radius:100%;
+  width:150px;
+  height:150px;
+  margin-bottom: 20px;
 }
