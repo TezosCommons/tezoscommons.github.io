@@ -354,4 +354,14 @@ section.bg-dark {
   }
 }
 
+.newsItem{
+  margin-bottom: 40px;
+}
+.newsItem h3{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.newsItem img {
+  max-width: 100%;
+  height: auto;
 }
