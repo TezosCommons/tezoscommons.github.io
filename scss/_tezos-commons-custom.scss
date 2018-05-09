@@ -1,0 +1,52 @@
+#logo {
+  width: 121px;
+  height: 54px;
+  display: block;
+  background: transparent url(../img/logo-white-small.png) 0 0 no-repeat;
+}
+.navbar-shrink #logo, .navbar-sub #logo {
+  background: transparent url(../img/logo-black-small.png) 0 0 no-repeat;
+}
+
+.avatar {
+  border-radius:100%;
+  width:150px;
+  height:150px;
+  margin-bottom: 20px;
+}
+
+section.bg-primary {
+  background-image: url("../img/blue-bg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.bg-dark {
+  background-image: url("../img/black-bg.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  #logo {
+    background: transparent url(../img/logo-black-small.png) 0 0 no-repeat!important;
+  }
+}
+
+.newsItem{
+  margin-bottom: 40px;
+}
+.newsItem h3{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.newsItem img {
+  max-width: 100%;
+  height: auto;
+}

@@ -22,7 +22,7 @@
   &:focus,
   &:active {
     color: $white;
-    background-color: darken($primary, 5%) !important;
+    background-color: $secondary !important;
   }
   &:active,
   &:focus {

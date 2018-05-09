@@ -55,7 +55,7 @@
         color: $white;
       }
     }
-    &.navbar-shrink {
+    &.navbar-shrink, &.navbar-sub {
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
       .navbar-brand {
